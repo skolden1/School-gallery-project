@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(129, 72, 75);
+    margin: auto;
+}
+
+.nav-bar {
+    height: 40px;
+    background-color: black;
+}
+
+.nav-bar a:hover {
+    color: #f3d657;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 12px 8px;
+   
+}
+
+.nav-bar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar ul {
+    text-align: center;
+    margin: 12px auto;
+}
+
+.bild-översta {
+    width: 400px;
+    height: 150px;
+    border: 5px dotted rgb(43, 2, 2);
+    margin-bottom: 0px;
+}
+
+.bildöversta-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bild1-placeholder {
+    width: 170px;
+    text-align: center;
+    margin: auto 15px;
+}
+
+.bild1-placeholder-container {
+    margin-top: 50px;
+    display: inline-block;
+    margin: auto 10px;
+    
+}
+
+
+figure {
+	width: 202px;
+	height: 170px;
+	background-color: #f3d657;
+	margin: 0;
+	padding: 11px;
+	text-align: left;
+}
+
+figure img {
+    width: 200px;
+	height: 150px;
+    padding: 2px;
+}
+
+figcaption {
+    background-image: url("../images/icon.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.container-rad1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    color: aliceblue;
+}
